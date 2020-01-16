@@ -1,0 +1,14 @@
+{
+  "name": "nodejstest",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ML",
+  "license": "ASL",
+  "dependencies": {
+    "express" "4.14.x"
+  }
+}
