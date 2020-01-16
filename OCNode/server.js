@@ -22,5 +22,5 @@ response.on('error', function(){
 
 
 
-}).listen(8000, 'localhost');
+}).listen(8000, 'nodeml-nodetest.192.168.99.100.nip.io');
 console.log('Server running at localhost:8000');
