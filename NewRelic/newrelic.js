@@ -9,11 +9,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: [' MarianTestOC'],
+  app_name: process.env.APP_NAME,
   /**
    * Your New Relic license key.
    */
-  license_key: 'eu01xx9a37868aea13064a7f3016454db434NRAL',
+  license_key: process.env.LICENSE_KEY,
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
